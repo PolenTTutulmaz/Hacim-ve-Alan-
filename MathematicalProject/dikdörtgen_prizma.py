@@ -1,0 +1,5 @@
+a=int(input("Birinci kenarın uzunluğunu giriniz : "))
+b=int(input("İkinci kenarın uzunluğunu giriniz : "))
+c=int(input("Dikdörtgenler prizmasının yüksekliğini giriniz: "))
+print("Dikdörtgen Prizmanın Hacmi: ", (a * b * c))
+print("Dikdörtgen Prizmanın Alanı: ",(2*a*b+2*b*c+2*a*c))
